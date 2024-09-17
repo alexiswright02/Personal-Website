@@ -1,0 +1,72 @@
+/* body */
+body {
+  background-color: rgb(142, 182, 155);
+}
+
+/* header */
+nav {
+  box-shadow: 0 0 12px -2px black;
+  background-color: rgb(22, 56, 50);
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  padding-left: 20px;
+}
+.link_font {
+  font-style: italic;
+}
+.link_color {
+  color: rgb(255, 255, 255);
+}
+/* main/home */
+article {
+  background-color: rgb(35, 83, 71);
+  margin: 10px;
+}
+main img {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+main h1 {
+  padding: 10px;
+  color: rgb(5, 31, 32);
+}
+main p {
+  margin: 0px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+.quote {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+/* about */
+.interests {
+    display: flex;
+    text-align: center;
+}
+
+/* footer  */
+footer {
+  box-shadow: 0 0 12px -2px black;
+  background-color: rgb(22, 56, 50);
+
+  text-align: center;
+  padding: 20px;
+}
+span {
+  display: inline-flex;
+}
+a {
+  margin: 0px 20px;
+}
