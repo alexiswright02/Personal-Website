@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="javascript.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Home</title>
+    <title>Contact</title>
   </head>
-  <!--contents of home page-->
+  <!--contents of contact page-->
   <body>
     <!--heading navigation bar-->
     <header>
@@ -17,27 +17,52 @@
           <h1>Alexis Wright</h1>
         </span>
         <span class="links">
-          <a class="active" href="home.html"><h1>Home</h1></a>
+          <a class="link_color" href="home.html"><h1>Home</h1></a>
           <a class="link_color" href="about.html"><h1>About</h1></a>
           <a class="link_color" href="portfolio.html"><h1>Portfolio</h1></a>
-          <a class="link_color" href="contact.html"><h1>Contact</h1></a>
+          <a class="active" href="contact.html"><h1>Contact</h1></a>
         </span>
       </nav>
     </header>
-    <!--main section w/ personal image, statement, & quote-->
+    <!--main section with form and submit button-->
+    <!--with no bootstrap styling because when I link the bootstrap style sheet, 
+    it affects my navigation bar and I cannot fix it or figure it out-->
     <main>
-      <article>
-        <img
-          src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg"
-          alt="picture"
-        />
-        <p>This is my mission statement</p>
-      </article>
-
-      <article>
-        <h3 class="quote">
-          "Either you run the day or the day runs you." <br />-Jim Rohn
-        </h3>
+      <article class="form">
+        <form action="success.html">
+          <div>
+            <label>First and Last Name</label>
+            <br />
+            <input
+              type="Name"
+              id="exampleInputName"
+              placeholder="Enter name"
+            />
+          </div>
+          <br />
+          <div>
+            <label>Email Address</label>
+            <br />
+            <input
+              type="Email"
+              id="exampleInputEmail1"
+              placeholder="Enter email"
+            />
+          </div>
+          <br />
+          <div>
+            <label>Your Message</label>
+            <br />
+            <input
+              type="Message"
+              class="message_box"
+              id="exampleInputMessage"
+              placeholder="Enter message"
+            />
+          </div>
+          <br />
+          <button type="submit" class="button">Submit</button>
+        </form>
       </article>
     </main>
     <!--footer section with external links-->

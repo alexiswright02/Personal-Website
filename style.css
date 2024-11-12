@@ -4,25 +4,30 @@ body {
 }
 
 /* header */
-nav {
+.nav_bar {
   box-shadow: 0 0 12px -2px black;
   background-color: rgb(22, 56, 50);
-
   align-items: center;
   display: flex;
   justify-content: space-between;
+  
 }
 .logo {
   color: rgb(255, 255, 255);
   font-size: x-large;
   padding-left: 20px;
 }
-.link_font {
+.links {
   font-style: italic;
+  color: white;
 }
 .link_color {
   color: rgb(255, 255, 255);
 }
+.active {
+  color: rgb(142, 182, 155);
+}
+
 /* main/home */
 article {
   background-color: rgb(35, 83, 71);
@@ -52,15 +57,54 @@ main p {
 }
 /* about */
 .interests {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
+}
+
+/*contact form */
+form {
+  font-size: 25px;
+  padding: 10px;
+  color:rgb(255, 255, 255);
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 15px;
+  color: rgb(2, 131, 92);
+}
+
+.message_box {
+height: 60px;
+}
+
+.button {
+  font-size: 18px;
+  background-color: rgb(142, 182, 155);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(21, 56, 50); 
+}
+
+.button:hover {
+  background-color: rgb(108, 141, 119);
+}
+
+.button:active {
+  background-color: rgb(81, 107, 90);
+  box-shadow: 0 5px rgb(15, 41, 37);
+  transform: translateY(4px);
 }
 
 /* footer  */
 footer {
   box-shadow: 0 0 12px -2px black;
   background-color: rgb(22, 56, 50);
-
   text-align: center;
   padding: 20px;
 }
@@ -69,4 +113,8 @@ span {
 }
 a {
   margin: 0px 20px;
+}
+.media_icons {
+  height: 50px;
+  width: 50px;
 }
